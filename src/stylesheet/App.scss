@@ -1,0 +1,22 @@
+@use 'intro';
+@use 'game';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.telescope {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 15vw;
+  height: auto;
+  transform: rotate(180deg);
+}

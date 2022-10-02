@@ -1,0 +1,38 @@
+@use 'variables';
+
+.game {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-family: variables.$secondary-font;
+}
+
+.legend {
+  background-color: variables.$transparent-black;
+  position: fixed;
+  padding: 2rem 1rem;
+  border-bottom-right-radius: 1rem;
+
+  header {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .itemList {
+    font-size: 1.2rem;
+
+    .item {
+      margin-bottom: 0.5rem;
+    }
+
+    .itemCount {
+      font-weight: 700;
+    }
+  }
+}
+
+.changeLanguage {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
